@@ -1,0 +1,141 @@
+/*Definimos nuestra variables*/
+@import "bootstrap";
+   
+
+
+/*Condicional*/
+
+
+
+
+/* Nota: Importe el SASS de Bootstrap*/
+
+
+
+
+/*
+
+</style>*/
+
+/* Imagen encabezado*/
+
+.banner{
+    background-image: url("../imagenes/fondo2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 12px;
+    
+}
+
+
+
+/*Solapa amigos index*/
+
+/* detalle antes de imagenes*/
+
+.p{
+color: grey;
+font-size: 17px;
+}
+
+
+
+/* solapa contactos*/
+
+
+.servicios{
+    background:linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(227,253,45,1) 100%);
+}
+
+.contactos2{
+    gap: 40px;
+    display: inline;
+    align-items: flex-start;
+}
+
+
+.footercontactos{
+    background-color: black;
+    color: white;
+}
+
+
+
+/*solapa contactos*/
+
+.cardinalnegro{
+    background-color: gray;
+    color: white;
+}
+
+.cardinalp{
+    color: gray;
+}
+
+
+/*solapa ubicación*/
+
+.ubicacion{
+    background-color: lightblue;
+    color: blue;
+    font-size: 14px;
+     
+}
+
+/*alineación google y maps y logo*/
+
+.alineacion{
+    align-items: flex-start
+}
+
+
+
+/* Extend solapa ubicación*/
+
+.ubicacion2{
+    @extend .ubicacion;
+    background-color: chocolate;
+    color: coral;
+}
+
+/*Mixins solapa ubicacion*/
+       
+.caja{
+    width: 200px;
+    height: 300px;
+    background-color: cornflowerblue;
+
+
+}
+    
+@mixin dimension {
+    width: 200px;
+    height: 300px;
+}
+
+/* diseño ubicación */
+
+.custom-element {
+  @include color-scheme(dark) {
+    // Insert dark mode styles here
+  }
+
+  @include color-scheme(custom-named-scheme) {
+    // Insert color
+  }
+}
+    
+      
+  // Maps
+
+  
+
+
+
+
+  /*Bordes de los botones de la página*/
+
+      
+  
